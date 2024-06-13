@@ -41,12 +41,72 @@ public Subordinado(int idSubordinado, String dni_empleado, String nombreSubordin
 	
 	this.idSubordinado = idSubordinado;
 	
+	id_Subordinado = idSubordinado;
+	dni_empleado = dni_empleado;
+	nombre_subordinado = nombre_subordinado;
+	sexo = sexo;
+	fecha_nac = fecha_nac;
+	relacion = relacion;
 	
-	
+
+}
+
+
+public int getidSubordinado() {
+	return id_Subordinado;
+}
+
+
+public int getdni_empleado(int dni_empleado) {
+	this.dni_empleado = dni_empleado;
+}
+
+
+public String getNombre() {
+	return Nombre;
+}
+
+
+public String getnombre_subordinado() {
+	return nombre_subordinado;
+}
+
+
+public String getsexo() {
+	return sexo;
+}
+
+
+
+
+
+@Override
+
+public String toString() {
+	return"Subordinado[idSubordinado]"
 	
 	
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
